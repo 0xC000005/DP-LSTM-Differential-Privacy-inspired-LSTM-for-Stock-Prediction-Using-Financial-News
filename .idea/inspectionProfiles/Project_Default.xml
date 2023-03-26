@@ -1,0 +1,43 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="pyspark-stubs==3.0.0.post3" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="cugraph" />
+          <option value="cudf" />
+          <option value="readability_optimization.graph_tool_to_pos_list.*" />
+          <option value="readability_optimization.pos_to_readability_score.graph_tool" />
+          <option value="readability_test.csv2dot.graph_tool" />
+          <option value="plot_test.csv2graph.graph_tool" />
+          <option value="readability_test.cuGraph2dot.graph_tool" />
+          <option value="plot_test.cuGraph_plot.graph_tool" />
+          <option value="runtime_test.cuGraph_test.graph_tool" />
+          <option value="NetworkX" />
+          <option value="readability_optimization.clean_weakly_connected_components.graph_tool" />
+          <option value="cpuinfo" />
+          <option value="psutil" />
+          <option value="pyintergraph" />
+          <option value="readability_test.iGraph2dot.graph_tool" />
+          <option value="igraph" />
+          <option value="networkx" />
+          <option value="readability_optimization.optimizer.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
